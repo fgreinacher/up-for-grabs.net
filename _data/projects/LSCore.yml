@@ -1,10 +1,15 @@
+---
 name: LSCore
 desc: Framework which helps you build applications faster
 site: https://github.com/LimitlessSoft
 tags:
- - c#
- - ".net"
- - framework
+- c#
+- ".net"
+- framework
 upforgrabs:
   name: up for grabs
   link: https://github.com/LimitlessSoft/LSCore/labels/up%20for%20grabs
+stats:
+  issue-count: 4
+  last-updated: '2025-01-23T19:52:22Z'
+  fork-count: 0
