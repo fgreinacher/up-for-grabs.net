@@ -15,5 +15,6 @@ upforgrabs:
   name: up for grabs
   link: https://github.com/libgit2/libgit2/labels/up%20for%20grabs
 stats:
-  issue-count: 24
-  last-updated: '2023-02-17T13:24:51Z'
+  issue-count: 23
+  last-updated: '2024-10-27T16:50:43Z'
+  fork-count: 2451

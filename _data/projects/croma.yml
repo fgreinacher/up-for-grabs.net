@@ -10,7 +10,8 @@ tags:
 - css
 upforgrabs:
   name: up for grabs
-  link: https://github.com/croma-app/croma/labels/up%20for%20grabs
+  link: https://github.com/croma-app/huehive-mobile-app/labels/up%20for%20grabs
 stats:
-  issue-count: 10
-  last-updated: '2023-02-09T14:30:21Z'
+  issue-count: 2
+  last-updated: '2024-12-24T14:48:51Z'
+  fork-count: 24

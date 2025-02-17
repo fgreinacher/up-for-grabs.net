@@ -13,5 +13,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/electricitymaps/electricitymaps-contrib/labels/help%20wanted
 stats:
-  issue-count: 43
-  last-updated: '2023-02-14T21:47:02Z'
+  issue-count: 45
+  last-updated: '2025-02-17T07:00:54Z'
+  fork-count: 973

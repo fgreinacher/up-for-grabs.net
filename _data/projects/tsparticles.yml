@@ -21,7 +21,8 @@ tags:
 - animations
 upforgrabs:
   name: up-for-grabs
-  link: https://github.com/matteobruni/tsparticles/labels/up-for-grabs
+  link: https://github.com/tsparticles/tsparticles/labels/up-for-grabs
 stats:
-  issue-count: 9
-  last-updated: '2023-01-09T01:02:27Z'
+  issue-count: 10
+  last-updated: '2025-01-31T13:52:01Z'
+  fork-count: 877

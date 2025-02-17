@@ -7,6 +7,7 @@ on:
       - gh-pages
 
 jobs:
+
   docker:
     runs-on: ubuntu-latest
     steps:
@@ -17,10 +18,10 @@ jobs:
   javascript:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: '16'
+          node-version: '22'
       - name: npm install, lint, and test
         run: |
           npm ci
@@ -33,14 +34,36 @@ jobs:
   site:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Set up Ruby 3.0
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.0'
+      - uses: actions/checkout@v4
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@d781c1b4ed31764801bfae177617bb0446f5ef8d
       - name: Build and test Jekyll site
         run: |
           bundle install
           bundle exec rubocop
           bundle exec jekyll build
           bundle exec ruby scripts/validate_data_files.rb
+
+  content:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: codespell-project/actions-codespell@v2
+        with:
+          skip: '**/*.ai,Gemfile*,package-lock.json,**/*.css'
+          ignore_words_list: gnerate,allready,hass,noice,dota,paket,testng,radis,Lins
+
+  upload:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    steps:
+      - name: Save PR number
+        env:
+          PR_NUMBER: ${{ github.event.number }}
+        run: |
+          mkdir -p ./pr
+          echo $PR_NUMBER > ./pr/pr_number
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pr_number
+          path: pr/

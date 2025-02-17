@@ -11,5 +11,6 @@ upforgrabs:
   name: newbie
   link: https://github.com/phpmyadmin/phpmyadmin/labels/newbie
 stats:
-  issue-count: 20
-  last-updated: '2022-12-29T15:53:46Z'
+  issue-count: 26
+  last-updated: '2025-01-21T23:46:03Z'
+  fork-count: 3443

@@ -12,5 +12,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/roc-streaming/roc-toolkit/labels/help%20wanted
 stats:
-  issue-count: 66
-  last-updated: '2023-02-07T22:52:49Z'
+  issue-count: 60
+  last-updated: '2025-02-17T00:53:26Z'
+  fork-count: 217

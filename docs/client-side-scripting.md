@@ -5,8 +5,8 @@ found and run in the app.
 
 Why do this?
 
-- GitHub Pages does not support JS bundles natively, and will block any
-  third-party plugin that support bundling
+- GitHub Pages does not natively support JS bundles and blocks
+  third-party plugins designed for bundling.
 - By using the source JS directly without bundling, local development and
   debugging of the live site is significantly easier, especially for new
   contributors who want to start hacking on things
@@ -35,7 +35,7 @@ the additional client-side resources:
 ```
 
 The `data-main` attribute tells RequireJS what script to run after it is
-initailized.
+initialized.
 
 ### Configure RequireJS
 

@@ -27,5 +27,6 @@ upforgrabs:
   name: hacktoberfest
   link: https://github.com/unoplatform/uno/labels/hacktoberfest
 stats:
-  issue-count: 9
-  last-updated: '2023-01-31T16:49:09Z'
+  issue-count: 8
+  last-updated: '2024-09-16T19:08:16Z'
+  fork-count: 758

@@ -16,5 +16,6 @@ upforgrabs:
   name: help wanted
   link: https://github.com/microsoft/HydraLab/labels/help%20wanted
 stats:
-  issue-count: 5
-  last-updated: '2023-02-18T11:14:43Z'
+  issue-count: 9
+  last-updated: '2023-11-28T09:41:13Z'
+  fork-count: 102
