@@ -20,5 +20,6 @@ upforgrabs:
   name: up-for-grabs
   link: https://github.com/VoidenHQ/voiden/labels/up-for-grabs
 stats:
-  issue-count: 0
+  issue-count: 2
+  last-updated: '2026-07-20T11:45:09Z'
   fork-count: 61
